@@ -1,5 +1,5 @@
 import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
-
+// Register
 Given('A web browser is at the parabank register page',()=>{
     cy.visit('https://parabank.parasoft.com/parabank/register.htm')
 })
