@@ -2,7 +2,7 @@ import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
 
 Given('A web browser is at the parabank login page',()=>{
     cy.visit('https://parabank.parasoft.com/parabank/index.htm')
-    cy.log('Hello')
+    cy.log('Hello Test')
 })
 
 When('User clicks on Login',()=>{
