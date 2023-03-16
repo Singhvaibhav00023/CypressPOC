@@ -1,6 +1,7 @@
 import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
 
 // added comment
+// login test file
 Given('A web browser is at the parabank login page',()=>{
     cy.visit('https://parabank.parasoft.com/parabank/index.htm')
     cy.log('Hi')
